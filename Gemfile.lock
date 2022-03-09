@@ -1,0 +1,42 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    async (2.0.0)
+      console (~> 1.10)
+      io-event (~> 1.0.0)
+      timers (~> 4.1)
+    async-http (0.56.5)
+      async (>= 1.25)
+      async-io (>= 1.28)
+      async-pool (>= 0.2)
+      protocol-http (~> 0.22.0)
+      protocol-http1 (~> 0.14.0)
+      protocol-http2 (~> 0.14.0)
+    async-io (1.33.0)
+      async
+    async-pool (0.3.9)
+      async (>= 1.25)
+    console (1.14.0)
+      fiber-local
+    fiber-local (1.0.0)
+    io-event (1.0.4)
+    protocol-hpack (1.4.2)
+    protocol-http (0.22.5)
+    protocol-http1 (0.14.2)
+      protocol-http (~> 0.22)
+    protocol-http2 (0.14.2)
+      protocol-hpack (~> 1.4)
+      protocol-http (~> 0.18)
+    thread-local (1.1.0)
+    timers (4.3.3)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  async (= 2.0.0)
+  async-http
+  thread-local
+
+BUNDLED WITH
+   2.3.8
